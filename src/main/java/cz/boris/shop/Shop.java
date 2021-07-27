@@ -9,6 +9,10 @@ import java.util.concurrent.Future;
 @Data
 public class Shop {
 
+    public Shop(String name) {
+        this.name = name;
+    }
+
     private final String name;
 
     public Future<BigDecimal> getPriceAsync() {

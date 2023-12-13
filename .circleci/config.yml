@@ -9,3 +9,4 @@ workflows:
   checkout-build-test:
     jobs:
       - gradle/test
+          executor: jdk
